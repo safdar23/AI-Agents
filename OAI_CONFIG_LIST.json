@@ -1,16 +1,16 @@
 [
     {
         "model": "gpt4o",
-        "api_key": "2e4ba8c71efc48d6ac2e6ee5de01569f",
-        "base_url": "https://assistantapitestuser.openai.azure.com/",
+        "api_key": "xxxxxxx",
+        "base_url": "https://xxxx.openai.azure.com/",
         "api_type": "azure",
         "api_version": "2024-05-01-preview"
     }
 ,
     {
         "model": "gpt4-0125",
-        "api_key": "7eb539fcfa35406aa73fd0d15e163ddd",
-        "base_url": "https://openainsresouirce.openai.azure.com/",
+        "api_key": "xxxxx,
+        "base_url": "https:/xxxx.openai.azure.com/",
         "api_type": "azure",
         "api_version": "2024-02-01"
     }
