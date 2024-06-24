@@ -9,7 +9,7 @@
 ,
     {
         "model": "gpt4-0125",
-        "api_key": "xxxxx,
+        "api_key": "xxxxx",
         "base_url": "https:/xxxx.openai.azure.com/",
         "api_type": "azure",
         "api_version": "2024-02-01"
