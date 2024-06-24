@@ -44,7 +44,7 @@ Before running this notebook, please ensure the following Dependencies are met, 
 **Finite State Machine agent** transitions in an importanr concept covered in this notebook which allows the user to input an agent transition path to govern agent to agent transitions. This is useful and extremely important in controling and selecting most optimized agents transitions aligned to use case.
 
 # Open Agent to Agent Communication
-![plot](<Open Agent Communication.jpg>)
+![plot](<Open Agent Communication-1.jpg>)
 
 
 
