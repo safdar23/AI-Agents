@@ -15,9 +15,9 @@ Before running this notebook, please ensure the following Dependencies are met, 
     - Create a Bing Search Service : https://learn.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource
 
 3. **Azure AI Search, Bing Search and Azure Open AI parameters:**
-    - Provide the created AI Search, Bing Search and Azure Open AI services configuration parameters in **azure.env** and **OAI_CONFIG_LIST** file 
+    - Create AI Search, Bing Search services and Azure Open AI (gpt4-0125) model and add configuration parameters in **azure.env** and **OAI_CONFIG_LIST** file
 
-4. Run the Notebooks
+4. **Run the Notebooks:**
     - Install all libraries in notebooks
     - Run the **AzureAISearchsetup.ipynb** to create semantic index and to upload the provided **HotelsData_toAzureSearch.JSON** file
     - Please confirm that index is created and data is populated, there will be a success message displayed in notebook, you can check the same through Azure AI portal
