@@ -1,5 +1,5 @@
-# AutoGen Multi-Agent Conversations 
-
+# AutoGen 
+AutoGen is a framework that enables building next-gen LLM applications based on multi-agent conversations with minimal effort. It simplifies the orchestration, automation, and optimization of a complex LLM workflow, and supports diverse conversation patterns for complex workflows, with customizable and conversable agents. Autogen van be integrated with langchain tools thus enbaling the developers to extend the autogen capabilties 
 ## Prerequisites
 
 Before running this notebook, please ensure the following Dependencies are met, please follow the steps in order:
