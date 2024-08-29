@@ -8,10 +8,10 @@ Before running this notebook, please ensure the following Dependencies are met, 
 ### Dependencies
 
 
-1. **Set up Azure AI search:**
+1. **Set up Azure AI Search:**
     - Create AI search service: https://learn.microsoft.com/en-us/azure/search/search-create-service-portal
     
-2. **Set up Bing Search search service:**
+2. **Set up Bing Search Service:**
     - Create a Bing Search Service : https://learn.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource
 
 3. **Azure AI Search, Bing Search and Azure Open AI parameters:**
@@ -29,19 +29,19 @@ Before running this notebook, please ensure the following Dependencies are met, 
 
 1. Run the AzureAISearchsetup.ipynb to create the index and to upload the "HotelsData_toAzureSearch.JSON" along with  semantic configuration, suggester profile.
 
-2. After the index is populated with data , run the Autogen-multi-agentchat.ipynb to craete **three AI agents (BINGsearch, COGsearch and semmarizeagnt) and related tools**.
+2. After the index is populated with data , run the Autogen-multi-agentchat.ipynb to create **three AI agents (BINGsearch, COGsearch and semmarizeagnt) and related tools**.
 
 # Agents Description
 
 **Autogen-multi-agentchat.ipynb Notebook** demonstrates the AutoGen multi-agent communication**. The three agents defined in these notebooks are activated based on the customer intent and type of information requested. Agents switching happens on the context of the ask
 
-**COGsearch agent** is responsible to retrieve data from enterrpise internal sources, I have used Azure AI Search, please feel free to update to connect to different enterpise data sources
+**COGsearch agent** is responsible for retrieving data from enterprise internal sources, I have used Azure AI Search, please feel free to update to connect to different enterpise data sources
 
-**The BINGsearch agent** is activated when user asks a question which can not be addressed from enterprise datasources, in this case Agents make decision to call the BINGsearch agent
+**The BINGsearch agent** is activated when user asks a question which can not be addressed from enterprise data sources, in this case Agents make decision to call the BINGsearch agent
 
 **summarizeagent** agenet takes the results from other agents, summarizes and presents to user
 
-**Finite State Machine agent** transitions in an importanr concept covered in this notebook which allows the user to input an agent transition path to govern agent to agent transitions. This is useful and extremely important in controling and selecting most optimized agents transitions aligned to use case.
+**Finite State Machine agent** transitions in an important concept covered in this notebook which allows the user to input an agent transition path to govern agent to agent transitions. This is useful and extremely important in controlling and selecting the most optimized agent's transitions aligned to use case.
 
 # Open Agent to Agent Communication
 ![plot](<Open Agent Communication-1.jpg>)
