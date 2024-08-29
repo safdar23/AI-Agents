@@ -33,7 +33,7 @@ Before running this notebook, please ensure the following Dependencies are met, 
 
 # Agents Description
 
-**Autogen-multi-agentchat.ipynb Notebook** demonstrates the AutoGen multi-agent communication**. The three agents defined in these notebooks are activated based on the customer intent and type of information requested. Agents switching happens on the context of the ask
+**Autogen-multi-agentchatNotebook** demonstrates the AutoGen multi-agent communication**. The three agents defined in these notebooks are activated based on the customer intent and type of information requested. Agents switching happens on the context of the ask
 
 **COGsearch agent** is responsible for retrieving data from enterprise internal sources, I have used Azure AI Search, please feel free to update to connect to different enterpise data sources
 
